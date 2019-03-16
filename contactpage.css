@@ -1,0 +1,125 @@
+html{
+  height:100%;
+  overflow: hidden;
+ }
+ body{
+    color: white;
+    margin:0;
+    padding: 0;
+    perspective: 1px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transform-style: preserve-3d;
+    background-color: #CFCDCF;
+}
+header{
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+  }
+  header h1{
+    margin-top: -350px;
+    font-family: 'Noto Serif', serif;
+    color: black;
+  }
+  header, header:before{
+    background: 50% 50%;
+  }
+  header::before{
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url("nbhd18.jpg");
+    background-size:cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+  }
+header *{
+  text-align: center;
+  margin: 0;
+  padding: 1em 0;
+}
+ul {
+	align-items: right;
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 20px;
+}
+.logobutton{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.buttons{
+	display: flex;
+    background-repeat:no-repeat;
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: 300px;
+
+}
+.menubutton{
+	margin: 30px;
+	margin-top: 0;
+	border-top: 0;
+	padding-top: 0;
+	align-content: right;
+	color: white;
+}
+.menubutton:hover   {
+  text-decoration:none;
+  color:black;
+  } 
+  .center{
+  	text-align: center;
+  	margin-top: 100px;
+  	color: black;
+  	font-family: 'Noto Serif', serif;
+  	padding-left: 100px;
+  	padding-right: 100px;
+  }
+  .contact{
+  	text-align: center;
+  	margin-top: 50px;
+  	color: black;
+  	font-family: 'Noto Serif', serif;
+  	padding-left: 100px;
+  	padding-right: 100px;
+  	padding-top: 200px;
+  }
+   .buttons a:link    {
+  text-decoration:none;
+  font-weight:bold;
+  color:black;
+  } 
+  .buttons a:visited {
+  text-decoration:none;
+  font-weight:bold;
+  color:black;
+  } 
+  .buttons a:hover   {
+  text-decoration:none;
+  font-weight:bold;
+  font-size: 33px;
+  color:black;
+  } 
+  label, input, textarea{
+  	display: block;
+  }
+

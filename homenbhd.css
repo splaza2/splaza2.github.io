@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+}
+.buttons{
+    background-repeat:no-repeat;
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 20px;
+ }
+ div{
+ 	transition-delay: 5s;
+ 	color: white;
+ 	bottom: 0;
+ }
+ .home{
+ 	animation-duration: 3s;
+  	animation-delay: 3s;
+  	color: white;
+  	text-decoration: none;
+ }
+ a:link    {
+  text-decoration:none;
+  font-weight:bold;
+  color:white;
+  padding-left: 50px;
+  padding-right: 50px;
+  } 
+  a:visited {
+  text-decoration:none;
+  font-weight:bold;
+  color:white;
+  } 
+  a:hover   {
+  text-decoration:none;
+  font-weight:bold;
+  font-size: 33px;
+  color:#E6E8E6;
+
+  }
+  #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -100;
+  animation-duration: 3s;
+  animation-delay: 4s;
+}
