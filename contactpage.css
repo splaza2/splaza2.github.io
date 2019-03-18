@@ -13,6 +13,7 @@ html{
     transform-style: preserve-3d;
     background-color: #CFCDCF;
 }
+/* parralax scrolling loosely based off https://www.youtube.com/watch?v=6CQ7DYni7Bg */
 header{
     box-sizing: border-box;
     min-height: 100vh;
@@ -41,7 +42,7 @@ header{
     background-size:cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
-    z-index: -1;
+    z-index: -1; /* needed to add so that text would not be hidden under */
     min-height: 100vh;
   }
 header *{
@@ -50,7 +51,7 @@ header *{
   padding: 1em 0;
 }
 ul {
-	align-items: right;
+    align-items: right;
     color: white;
     text-decoration: none;
     text-decoration-color: white;
@@ -59,14 +60,14 @@ ul {
     justify-content:space-between;
     margin-right: 20px;
 }
-.logobutton{
+.logobutton{ 
 	padding: 0;
 	margin: 0;
 	border: 0;
 }
 
 .buttons{
-	display: flex;
+    display: flex;
     background-repeat:no-repeat;
     font-family: 'Noto Serif', serif;
     font-size: 30px;
