@@ -25,7 +25,7 @@ html{
     margin-right: 20px;
 }
 
-
+/* when item is being hovered over, a box covers it as a nod to the user that they are hovering & there is something to click */
 .item img {
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
@@ -74,6 +74,7 @@ html{
   font-size: 33px;
   color:black;
   } 
+/* parralax scrolling loosely based off https://www.youtube.com/watch?v=6CQ7DYni7Bg */
   header{
     box-sizing: border-box;
     min-height: 100vh;
