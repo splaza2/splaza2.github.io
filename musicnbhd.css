@@ -12,6 +12,7 @@
     overflow-y: scroll;
     transform-style: preserve-3d;
 }
+/* gives space between the spotify tabs and the album covers */
  iframe{
   padding-left: 50px;
   padding-top: 100px;
@@ -73,6 +74,7 @@
   font-size: 33px;
   color:black;
   } 
+/* parralax scrolling loosely based off https://www.youtube.com/watch?v=6CQ7DYni7Bg */
   header{
     box-sizing: border-box;
     min-height: 100vh;
