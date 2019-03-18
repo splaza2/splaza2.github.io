@@ -24,6 +24,7 @@ ul {
   	color: white;
   	text-decoration: none;
  }
+/* makes all of the links white without an underline*/
  a:link    {
   text-decoration:none;
   font-weight:bold;
@@ -36,6 +37,7 @@ ul {
   font-weight:bold;
   color:white;
   } 
+/* they get bigger in size when being hovered over*/
   a:hover   {
   text-decoration:none;
   font-weight:bold;
@@ -43,13 +45,14 @@ ul {
   color:#E6E8E6;
 
   }
+/*keeps the video centered and full screen*/
   #myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
-  z-index: -100;
+  z-index: -100; /* so nothing hides underneath it*/
   animation-duration: 3s;
   animation-delay: 4s;
 }
